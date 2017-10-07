@@ -1,9 +1,9 @@
 const { spawn, exec } = require('child_process');
 const http = require('http');
 const conv = require('binstring');
-const nfcPath = '/home/pi/Downloads/test/apdu_tag_test';
+const nfcPath = './apdu_tag_test';
 const nfcProcess = spawn('stdbuf', ['-i0', '-o0', '-e0', nfcPath]);
-const vidProcess = spawn('/home/pi/Documents/raspivid_command.sh', []);
+const vidProcess = spawn('./raspivid_command.sh', []);
 const deviceId = "22e4d366-a602-11e7-abc4-cec278b6b50a";
 const hostname = "13.124.244.253";
 

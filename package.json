@@ -1,0 +1,24 @@
+{
+  "name": "smartbell_rasp",
+  "version": "1.0.0",
+  "description": "project for raspberry pi",
+  "main": "parentProcess.js",
+  "dependencies": {
+    "binstring": "^0.2.1",
+    "pm2": "^2.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saaeg657/smartbell-rasp.git"
+  },
+  "author": "hanjoo na",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saaeg657/smartbell-rasp/issues"
+  },
+  "homepage": "https://github.com/saaeg657/smartbell-rasp#readme"
+}
