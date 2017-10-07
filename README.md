@@ -1,3 +1,3 @@
 # smartbell-rasp
-> npm install
+> npm install\n
 > node parentProcess.js
